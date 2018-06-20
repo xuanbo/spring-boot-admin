@@ -1,2 +1,26 @@
 server:
   port: 8081
+
+spring:
+  boot:
+    admin:
+      notify:
+        mail:
+          from: ${spring.mail.username}
+          to: 接收者的邮箱账号
+  mail:
+    host: smtp.qq.com
+    # 登录账号
+    username: qq账号
+    # 密码(开启IMAP/SMTP服务颁发的授权码)
+    password: qq授权码
+    properties:
+      mail:
+        debug: false
+        smtp:
+          auth: true
+          port: 465
+          ssl:
+            # 开启ssl加密 否则项目启动时报530error
+            enable: true
+            socketFactory: sf
