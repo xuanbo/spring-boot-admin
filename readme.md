@@ -9,8 +9,8 @@
 
 #### index
 
-![index](https://github.com/xuanbo/novel/blob/master/doc/index.png)
+![index](https://raw.githubusercontent.com/xuanbo/spring-boot-admin/master/doc/index.png)
 
-#### detail.png
+#### detail
 
-![detail](https://github.com/xuanbo/novel/blob/master/doc/detail.png)
+![detail](https://raw.githubusercontent.com/xuanbo/spring-boot-admin/master/doc/detail.png)
