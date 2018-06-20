@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  boot:
+    admin:
+      # Admin Server的地址
+      url: http://localhost:8081
+management:
+  security:
+    # 关闭安全验证
+    enabled: false
